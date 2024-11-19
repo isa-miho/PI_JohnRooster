@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.button-cavalo{
+    display: flex;
+    width: 50%;
+    height: 30%;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+}
+.equinos img{
+    display: flex;
+    width: 30%;
+    height: 70%;
+    z-index: 2;
+    align-items: start;
+    background-color: aquamarine;
+    
+}
+.button-galo{
+    display: flex;
+    width: 30%;
+    height: 10%;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+}
+.galinacios img{
+    display: flex;
+    width: 30px;
+    height: 10px;
+    z-index: 2;
+    align-items: start;
+    background-color: aquamarine;
+    
+}
