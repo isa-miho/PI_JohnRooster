@@ -1,0 +1,6 @@
+#home{
+    display: flex;
+    min-height: calc(100vh-91px);
+    position: relative;
+    justify-content: space-between;
+}

@@ -1,5 +1,5 @@
 
-
+@import url('home.css');
 :root{
     --color-primary-1: #40513B;
     --color-primary-2: #557153;
@@ -9,4 +9,8 @@
     --color-primary-6: #729762;
     --color-primary-7: #EDF1D6;
     --color-primary-8: #E7F0DC;
+}
+
+a{
+    text-decoration: none;
 }
