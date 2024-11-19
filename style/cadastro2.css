@@ -1,0 +1,90 @@
+.container-cadastro2{
+    width:420px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding:30px 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-cadastro2{
+    font-size: 36px;
+    text-align: center;
+    color: var(--color-primary-8);
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.input-container-cadastro2{
+    position:relative;
+    width:100%;
+    height: 20px;
+    margin:30px 0;
+}
+
+.input-container-cadastro2 input{
+    width:100%;
+    height:100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 10px;
+    font-size: 16px;
+    color:#fff;
+    padding:20px 45px 20px 20px;
+}
+
+.input-container-cadastro2 input::placeholder{
+    color: #fff;
+}
+.input .container-cadastro2 a{
+    font-size: 16px;
+    margin-top:5px;
+    color:#fff;
+    text-decoration:none;
+}
+
+.input .container-cadastro2 a:hover{
+    text-decoration: underline;
+}
+.submit-button-cadastro2{
+    width:100%;
+    height:50px;
+    background-color: var(--color-primary-3);
+    border:none;
+    border-radius: 10px;
+    color: var(--color-primary-8);
+    font-weight: 500;
+    margin-top: 24px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+}
+
+.submit-button-cadastro2:hover{
+    background-color: var(--color-primary-5);
+}
+.login-tela-cadastro2 p{
+    font-size: 16px;
+    color: var(--color-primary-8);
+    font-weight: 500;
+}
+
+.login-tela-cadastro2 a{
+    font-size: 16px;
+    color: var(--color-primary-8);
+    font-weight: 700;
+    text-decoration: none;
+}
+.login-tela-cadastro2{
+    text-align:center;
+    margin: 20px 0;
+}
+
+.login-tela-cadastro2 p a:hover{
+    text-decoration: underline;
+}
