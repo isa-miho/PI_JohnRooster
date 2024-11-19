@@ -61,9 +61,11 @@ h1{
 .input-container img{
     position: absolute;
     right: 14px;
-    top:20%;
-    margin-top: 5px;
+    top:70%;
+    /* margin-top: 5px; */
     align-items: center;
+    /* background-color: red; */
+    display: flex;
     
     
     
