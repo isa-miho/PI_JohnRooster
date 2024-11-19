@@ -1,0 +1,3 @@
+Observações:
+Substitua as imagens (angus.jpg, nelore.jpg, etc.) e ícones (logo.png, search-icon.png, etc.) pelos arquivos correspondentes.
+O código foi estruturado para facilitar a leitura e replicar o design mostrado na imagem. 
