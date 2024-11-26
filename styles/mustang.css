@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+    background-color: #6aa84f;
+    color: white;
+}
+
+.header .logo img{
+    height: 50px;
+}
+
+.header .search-bar input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+
+main {
+    padding: 20px;
+  }  
+
+  .cavalo h1 {
+    color: #40513B;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+ .cavalo img{
+    height: 350px;
+    border-radius: 30px;
+ }
+
+ .button-container{
+    background-color: #729762;
+    color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    padding-right: 10px;
+ }
+
