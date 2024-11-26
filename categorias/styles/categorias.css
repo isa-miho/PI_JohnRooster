@@ -12,11 +12,42 @@
     background-color: var(--color-primary-5);
 }
 
-.categorias-logo{
-    width: 300px;
+.categorias-bars{
+    width: 90px;
     height: 120px;
     display: flex;
+    align-items: center;
     justify-content: center;
+    font-size: 30px;
+}
+
+.categorias-bars a{
+    color: var(--color-primary-7);
+}
+
+.categorias-logo{
+    width: 500px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#categorias-logo-img{
+    width: 50%;
+}
+
+.categorias-buttons{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    font-size: 1.7rem;
+    align-items: center;
+    justify-content: right;
+}
+
+.categorias-buttons a{
+    color: var(--color-primary-7);
 }
 
 /* Parte Principal */
@@ -28,6 +59,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.categorias-cavalo-campeao{
+    width: 100%;
+    height: 100px;
+    display: flex;
 }
 
 /* Parte do Rodapé */
