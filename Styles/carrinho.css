@@ -2,37 +2,63 @@
     margin: 0;
     padding: 0;
 }
-.button-cavalo{
+.area-animal{
     display: flex;
-    width: 50%;
-    height: 30%;
-    background-color: aqua;
-    align-items: center;
-    justify-content: center;
+    width: 60%;
+    height: 40%;
+    align-items: left;
+    justify-content: left;
 }
-.equinos img{
+.button-cavalo{
+    background-color: aqua;
+}
+.equinos {
     display: flex;
     width: 30%;
     height: 70%;
     z-index: 2;
     align-items: start;
-    background-color: aquamarine;
+    object-fit: cover;
     
 }
 .button-galo{
+background-color: red;
+  
+}
+.galinacios {
     display: flex;
     width: 30%;
-    height: 10%;
-    background-color: aqua;
-    align-items: center;
-    justify-content: center;
-}
-.galinacios img{
-    display: flex;
-    width: 30px;
-    height: 10px;
+    height: 70%;
     z-index: 2;
     align-items: start;
-    background-color: aquamarine;
+    object-fit: cover;
     
 }
+.button-boi{
+    background-color: rgb(89, 113, 193);
+}
+.bovinos {
+    display: flex;
+    width: 30%;
+    height: 70%;
+    z-index: 2;
+    align-items: start;
+    /* background-color: aquamarine; */
+    object-fit: cover;
+    
+}
+.button-produto{
+    background-color: rgb(106, 165, 60);
+}
+.produtos {
+    display: flex;
+    width: 30%;
+    height: 70%;
+    z-index: 2;
+    align-items: start;
+    /* background-color: aquamarine; */
+    object-fit: cover;
+    
+    
+}
+
