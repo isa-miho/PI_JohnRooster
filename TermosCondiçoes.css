@@ -1,3 +1,14 @@
+:root{
+    --color-primary-1: #40513B;
+    --color-primary-2: #557153;
+    --color-primary-3: #4B914B;
+    --color-primary-4: #798645;
+    --color-primary-5: #609966;
+    --color-primary-6: #729762;
+    --color-primary-7: #EDF1D6;
+    --color-primary-8: #E7F0DC;
+}
+
 body, h1, p, button {
     margin: 0;
     padding: 0;
@@ -6,7 +17,7 @@ body, h1, p, button {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: var(--color-primary-6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +79,7 @@ body {
 .aceitar {
     width: 100%;
     padding: 15px;
-    background-color: #4CAF50;
+    background-color: var(--color-primary-5);
     color: white;
     border: none;
     border-radius: 5px;
@@ -78,5 +89,5 @@ body {
 }
 
 .aceitar:hover {
-    background-color: #45a049;
+    background-color: var(--color-primary-3);
 }
