@@ -1,4 +1,4 @@
-:root{
+:root {
     --color-primary-1: #40513B;
     --color-primary-2: #557153;
     --color-primary-3: #4B914B;
@@ -7,6 +7,7 @@
     --color-primary-6: #729762;
     --color-primary-7: #EDF1D6;
     --color-primary-8: #E7F0DC;
+    --color-primary-rgb: 157, 192, 139;
 }
 
 body, h1, p, button {
@@ -17,30 +18,32 @@ body, h1, p, button {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: var(--color-primary-6);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    
 }
 
 .termos-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 20px;
     width: 100%;
 }
 
 .termos-box {
-    background: #ffffff;
+    background-color: rgba(var(--color-primary-rgb), 0.2);
     border-radius: 10px;
     padding: 40px 50px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-    max-width: 700px;
+    max-width: clamp(300px, 90%, 700px);
     min-height: 500px;
     text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
 
 .termos-box h1 {
@@ -48,15 +51,21 @@ body {
     color: #333333;
     text-align: center;
     margin-bottom: 20px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .termos-content {
+    margin-top: 60px;
     max-height: 400px;
     overflow-y: auto;
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 1.6;
     color: #555555;
+    width: 100%;
 }
 
 .termos-content p {
@@ -68,18 +77,18 @@ body {
 }
 
 .termos-content::-webkit-scrollbar-thumb {
-    background: #888;
+    background: var(--color-primary-3, #4B914B);
     border-radius: 10px;
 }
 
 .termos-content::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: var(--color-primary-8, #E7F0DC);
 }
 
 .aceitar {
     width: 100%;
     padding: 15px;
-    background-color: var(--color-primary-5);
+    background-color: var(--color-primary-5, #609966);
     color: white;
     border: none;
     border-radius: 5px;
@@ -89,5 +98,5 @@ body {
 }
 
 .aceitar:hover {
-    background-color: var(--color-primary-3);
+    background-color: var(--color-primary-3, #4B914B);
 }
