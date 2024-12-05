@@ -17,6 +17,22 @@ body {
     height: 80px; /* Altura proporcional ao layout */
 }
 
+/* Estilos do botão do menu */
+.menu-button {
+    display: flex;
+    align-items: center;
+}
+
+.menu-button button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-button img {
+    width: 24px; /* Ajuste o tamanho do ícone conforme necessário */
+    height: 24px;
+}
 .logo img {
     height: 100px;
     
@@ -75,10 +91,12 @@ body {
 }
 
 h1 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #333;
+    text-align: left; /* Alinha o texto à esquerda */
+    margin-left: 10%; /* Add espaçamento à esquerda para centralizar com os cartões */
+    font-size: 24px; /* Mantém o tamanho da fonte */
+    color: #333; /* Cor do texto */
 }
+
 
 /* Cartões */
 .cards {
@@ -138,14 +156,41 @@ h1 {
     gap: 60px; /* Ajuste o espaço entre os botões e o texto */
 }
 
-.pagination button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 12px 20px; /* Botões maiores para desktop */
-    cursor: pointer;
-    font-size: 16px; /* Aumentado para maior legibilidade */
+.pagination button.next {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    border: none; /* Sem borda */
+    border-radius: 50%; /* Torna o botão circular */
+    width: 50px; /* Largura do botão */
+    height: 50px; /* Altura do botão */
+    display: flex; /* Para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+.pagination button.next i {
+    color: white; /* Cor do ícone */
+    font-size: 20px; /* Tamanho do ícone */
+}
+
+.pagination button.prev {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    font-size: 16px; /* Tamanho da fonte */
+    margin-right: 10px; /* Espaçamento à direita para separar do texto */
+}
+
+.pagination button.prev:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse */
+}
+
+.pagination button.next i {
+    color: white; /* Cor do ícone */
+    font-size: 20px; /* Tamanho do ícone */
 }
 
 .pagination p {
