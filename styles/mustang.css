@@ -27,12 +27,14 @@ body{
 
 main {
     padding: 20px;
+    
   }  
 
   .cavalo h1 {
     color: #40513B;
     text-align: left;
     margin-bottom: 20px;
+    
   }
 
  .cavalo img{
@@ -40,12 +42,19 @@ main {
     border-radius: 30px;
  }
 
- .button-container{
+ .button-container {
     background-color: #729762;
     color: white;
-    display: flex;
-    gap: 10px;
-    justify-content: flex-end;
-    padding-right: 10px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin: 0 100px;
  }
 
+ .text-sobre {
+    font-size: 20px;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+ 
