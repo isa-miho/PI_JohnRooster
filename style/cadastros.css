@@ -20,7 +20,7 @@
     max-width: 170px;
 }
 .body-cadastro{
-    background: url(../img/imagem\ fundo.jpg);
+    /* background: url(../img/imagem\ fundo.jpg); */
     background-size: cover;
     background-position: center;
     min-height: 100vh;

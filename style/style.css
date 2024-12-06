@@ -17,3 +17,6 @@
     --color-primary-7: #EDF1D6;
     --color-primary-8: #E7F0DC;
 }
+body{
+    background: url(../img/imagem\ fundo.jpg);
+}
