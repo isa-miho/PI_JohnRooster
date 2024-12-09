@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Galináceos</title>
-  <link rel="stylesheet" href="../styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orpington</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-  <div class="container">
-    <header class="header">
-      <input type="text" class="search-bar" placeholder="O que deseja buscar?">
-    </header>
-
-    <main>
-      <section class="category">
-        <h2 class="category-title">Galináceos</h2>
-        <div class="card">
-          <img src="https://via.placeholder.com/150" alt="Galinha Orpington" class="card-image">
-          <h3 class="card-title">Orpington</h3>
-          <button class="card-button">Visualizar</button>
+    <header>
+        <div class="search-bar">
+            <input type="text" placeholder="O que deseja buscar?">
         </div>
-      </section>
-    </main>
-  </div>
+    </header>
+    <main>
+        <section class="category">
+          <h2 class="category-title">Orpington</h2>
+          <div class="sorting">
+            <span>Ordenar por:</span>
+            <button class="filter-button">Filtros</button>
+          </div>
+    
+          <div class="card-container">
+            <!-- Card 1 -->
+            <div class="card">
+              <span class="badge">Lote X</span>
+              <img src="../imagens pi/orpington.png" alt="Galinha 1" class="card-image">
+              <p class="details">Peso: 3 kg | Raça: Orpington<br>Idade: 3 anos</p>
+              <p class="price">R$: 00,00</p>
+              <button class="card-button">Conferir</button>
+            </div>
+          </div>
+        </section>
+        <div class="pagination">
+          <span>1 de 1 páginas</span>
+        </div>
+      </main>
 </body>
 </html>

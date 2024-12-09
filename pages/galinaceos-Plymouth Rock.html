@@ -8,27 +8,37 @@
 </head>
 <body>
     <header>
-        <div class="search-bar">
-            <input type="text" placeholder="O que deseja buscar?">
+        <div class="header-container">
+            <img src="../imagens pi/Logo John Rooster (1).png" alt="Logo" class="logo">
+            <input type="text" placeholder="O que deseja buscar?" class="search-bar">
+            <div class="icons">
+                <span class="bell-icon">🔔</span>
+                <span class="cart-icon">🛒</span>
+            </div>
         </div>
     </header>
     <main>
-        <div class="container">
-            <h1>Plymouth Rock</h1>
-            <div class="filter-options">
-                <span>Ordenar por:</span>
-                <button>Filtros</button>
-            </div>
+        <section class="category">
+          <h2 class="category-title">Plymouth Rock</h2>
+          <div class="sorting">
+            <span>Ordenar por:</span>
+            <button class="filter-button">Filtros</button>
+          </div>
+    
+          <div class="card-container">
+            <!-- Card 1 -->
             <div class="card">
-                <img src="galinha.jpg" alt="Galinha Plymouth Rock">
-                <div class="card-content">
-                    <p>Peso: 5 kg, Raça: Plymouth Rock</p>
-                    <p>Idade: 1 anos</p>
-                    <p class="price">R$ 00,00</p>
-                    <button>Conferir</button>
-                </div>
+              <span class="badge">Lote X</span>
+              <img src="../imagens pi/Barred_Plymouth_Rock_Rooster_001.jpg" alt="Galinha 1" class="card-image">
+              <p class="details">Peso: 3 kg | Raça: Plymounth Rock<br>Idade: 3 anos</p>
+              <p class="price">R$: 00,00</p>
+              <button class="card-button">Conferir</button>
             </div>
+          </div>
+        </section>
+        <div class="pagination">
+          <span>1 de 1 páginas</span>
         </div>
-    </main>
+      </main>
 </body>
 </html>

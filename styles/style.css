@@ -1,8 +1,10 @@
 @import url(subCatGalos.css);
+@import url(subCatGalos2.css);
 @import url(galinaceo-león.css);
-@import url(galinaceo-orpington.css);
+@import url(galinaceo-legorne.css);
 @import url(galinaceos-\ Plymouth\ Rock.css);
 @import url(galinaceos-Rhode\ Island\ Red.css);
+@import url(galinaceo-orpington.css);
 
 *{
     margin: 0;
@@ -69,6 +71,7 @@ h1 {
 }
 
 .card-container {
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -79,16 +82,18 @@ h1 {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 10px;
-    width: 200px;
+    width: 250px;
     align-items: center;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .card h2 {
@@ -128,3 +133,9 @@ h1 {
 .pagination button:hover {
     background-color: #a9a9a9;
 }
+
+
+
+
+
+

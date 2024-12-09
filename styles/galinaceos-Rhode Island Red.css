@@ -1,18 +1,17 @@
-/* styles.css */
-body {
+.body-galinaceos{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
 }
 
-header {
+.header-galinaceos{
     background-color: #e9f4e9;
     padding: 10px;
     text-align: center;
 }
 
-.search-bar input {
+.search-bar-galinaceos input {
     width: 80%;
     padding: 10px;
     border: 1px solid #ccc;
