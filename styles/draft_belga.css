@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+    background-color: #6aa84f;
+    color: white;
+}
+
+.header .logo img{
+    height: 50px;
+}
+
+.header .search-bar input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+
+main {
+    padding: 20px;
+  }
+  
+  .equinos h1 {
+    color: #40513B;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    align-items: center;
+
+  }
+
+  .card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    height: 250px;
+  }
+  
+  .card img {
+    width: 90%;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+ .card h2{
+    margin: 10px 0;
+    font-size: 14px;
+ }
+
+ .card button{
+    padding: 10px 20px;
+    background-color: #729762;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+ }
+
+ .card button:hover{
+    background-color: #4B914B;
+ }
+
+ .pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 90px;
+    
+ }
+
+ .pagination button{
+    background-color: #729762;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin: 0 100px;
+    
+ }
+
+.pagination span{
+    font-size: 16px;
+    color: #40513B;
+}
