@@ -168,6 +168,12 @@ h1 {
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
 
+.pagination button.next img {
+    filter: brightness(0) invert(1); /* Isso tornará a imagem branca */
+    width: 30px; /* Largura da imagem */
+    height: 30px; /* Altura da imagem */
+}
+
 .pagination button.next i {
     color: white; /* Cor do ícone */
     font-size: 20px; /* Tamanho do ícone */
@@ -186,11 +192,6 @@ h1 {
 
 .pagination button.prev:hover {
     background-color: #45a049; /* Cor de fundo ao passar o mouse */
-}
-
-.pagination button.next i {
-    color: white; /* Cor do ícone */
-    font-size: 20px; /* Tamanho do ícone */
 }
 
 .pagination p {
