@@ -36,8 +36,9 @@
 }
 
 .area-logo{
-  height: 125px;
+  height: 130px;
   width: 140px;
+  color: var(--color-primary-7);
 }
 #logo{
   width: 100%;
@@ -53,23 +54,24 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  border: solid 2px var(--color-primary-7);
   background-color: rgba(0, 0, 0, 0.295);
   border-radius: 40px;
   padding: 10px;
 }
 
 .barra-pesquisa{
+  display: flex;
   height: 100%;
   width: 100%;
-  display: flex;
   align-items: center;
   justify-content: space-between;
   /* stroke-linejoin: var(--color-primary-7); */
 }
 .pesquisa-btn {
+  display: flex;
   color: white;
   float: right;
-  display: flex;
   align-items: center;
   width: 40px;
   height: 40px;
@@ -83,7 +85,8 @@
   outline: none;
   float: left;
   padding: 0;
-  color: white;
+  color: var(--color-primary-7);
+  text-decoration-color: var(--color-primary-7);
   font-size: 15px;
   transition: 0.3s;
   line-height: 40px;
