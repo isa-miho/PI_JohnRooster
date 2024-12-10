@@ -1,45 +1,47 @@
 .menu{
-    background-color: var(--color-primary-5);
-    height: 158px;
-    width: 100%;
-    position: sticky;
-    top: 0;
-    z-index: 3;
-    padding: 28px 0px;
+  background-color: var(--color-primary-5);
+  height: 158px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  padding: 28px 0px;
 }
 .nav-bar-menu{
-    width: 100%;
-    height: 108px;
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
+  width: 100%;
+  height: 108px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
 }
 .area-menu-esquerda{
-    height: 108px;
-    width: 300px;
-    position: relative;
-    justify-content: space-evenly;
-    align-items: center;
-    display: flex;
+  height: 108px;
+  width: 300px;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
 }
 .area-menu-sanduiche{
-    font-size: 44px;
-    width: 44px;
-    height: 44px;
-    color: var(--color-primary-7);
+  font-size: 44px;
+  width: 44px;
+  height: 44px;
 }
 #sanduiche{
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+}
+.area-menu-sanduiche a{
+  color: var(--color-primary-7);
 }
 
 .area-logo{
-    height: 125px;
-    width: 140px;
+  height: 125px;
+  width: 140px;
 }
 #logo{
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 /* BARRA PESQUISA */
@@ -62,8 +64,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* stroke-linejoin: var(--color-primary-7); */
 }
-
 .pesquisa-btn {
   color: white;
   float: right;
@@ -106,8 +108,7 @@
 
 .fa-bell,.fa-cart-shopping,.fa-circle-user{
   font-size: 35px;
-  }
-
+}
 li{
   list-style: none;
 }
