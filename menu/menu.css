@@ -1,6 +1,6 @@
 .menu{
   background-color: var(--color-primary-5);
-  height: 158px;
+  height: 150px;
   width: 100%;
   position: sticky;
   top: 0;
@@ -8,23 +8,24 @@
   padding: 28px 0px;
 }
 .nav-bar-menu{
+  display: flex;
   width: 100%;
   height: 108px;
-  display: flex;
-  align-items: end;
+  align-items: center;
   justify-content: space-between;
 }
 .area-menu-esquerda{
+  display: flex;
   height: 108px;
-  width: 300px;
+  width: 20%;
   position: relative;
   justify-content: space-evenly;
   align-items: center;
-  display: flex;
+  margin-left: 2%;
 }
 .area-menu-sanduiche{
   font-size: 44px;
-  width: 44px;
+  width: 30%;
   height: 44px;
 }
 #sanduiche{
@@ -36,9 +37,8 @@
 }
 
 .area-logo{
-  height: 130px;
-  width: 140px;
-  color: var(--color-primary-7);
+  height: 100%;
+  width: 50%;
 }
 #logo{
   width: 100%;
@@ -48,12 +48,9 @@
 /* BARRA PESQUISA */
 
 .area-barra-pesquisa{
-  width: 860px;
+  display: flex;
+  width: 60%;
   height: 60px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
   border: solid 2px var(--color-primary-7);
   background-color: rgba(0, 0, 0, 0.295);
   border-radius: 40px;
@@ -66,7 +63,6 @@
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  /* stroke-linejoin: var(--color-primary-7); */
 }
 .pesquisa-btn {
   display: flex;
@@ -92,21 +88,25 @@
   line-height: 40px;
 }
 
+/* barra-esquerda */
+
 .nav-list{
-  height: 100%;
-  width: 210px;
-  background-color: pink;
   display: flex;
+  height: 100%;
   align-items: center;
   justify-content: center;
-
 }
 .group-icons{
   display: flex;
   justify-content: space-around;
-  height: 80px;
+  align-items: center;
+  height: 100%;
   width: 20%;
-  gap: 40px;
+  
+}
+.ul-icons{
+  display: flex;
+  gap: 60px;
 }
 
 .fa-bell,.fa-cart-shopping,.fa-circle-user{
