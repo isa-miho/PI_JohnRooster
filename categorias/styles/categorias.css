@@ -130,11 +130,77 @@
 .categorias-campeao-visualizar button{
     color: var(--color-primary-7);
     background-color: var(--color-primary-5);
-    width: 250px;
+    width: 255px;
     height: 30px;
     border: none;
     border-radius: 20px;
 }
 
+.categorias-bovino-img img{
+    width: 650px;
+    height: 300px;
+    display: flex;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    margin-left: 725px;
+}
+
+.categorias-bovino-titulo{
+    color: var(--color-primary-1);
+    font-size: 1.2rem;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+
+.categorias-bovino-texto{
+    color: var(--color-primary-1);
+    position: absolute;
+    top: 90%;
+    left: 2%;
+}
+
+.categorias-bovino-texto h3{
+    width: 80%;
+    display: flex;
+}
+
+.categorias-bovino-visualizar{
+    position: absolute;
+    top: 103%;
+    left: 14%;
+}
+
+.categorias-bovino-visualizar button{
+    color: var(--color-primary-7);
+    background-color: var(--color-primary-5);
+    border: none;
+    width: 255px;
+    height: 30px;
+    border-radius: 20px;
+}
+
 /* Parte do Rodapé */
 
+.categorias-seta-direita{
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    position: absolute;
+    left: 5%;
+}
+
+.categorias-seta-direita button{
+    width: 50px;
+    height: 50px;
+    background-color: #9DC08B;
+    border: none;
+    border-radius: 50%;
+}
+
+.categorias-seta-direita a{
+    font-size: 25px;
+    color: var(--color-primary-7);
+}
