@@ -8,7 +8,7 @@
     font-family: 'poppins', sans-serif;
 }
 :root{
-    --color-primary-1: #40513B;
+    --color-primary-1: #40513b;
     --color-primary-2: #557153;
     --color-primary-3: #4B914B;
     --color-primary-4: #798645;
@@ -17,6 +17,15 @@
     --color-primary-7: #EDF1D6;
     --color-primary-8: #E7F0DC;
 }
-body{
-    background: url(../img/imagem\ fundo.jpg);
+.body-cadastro{
+    width: 100%;
+    background-color: var(--color-primary-8);
+    /* background: url(../img/imagem\ fundo.jpg); */
+    background-size: cover;
+    background-position: center;
+    max-height: 100vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
