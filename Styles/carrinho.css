@@ -2,63 +2,204 @@
     margin: 0;
     padding: 0;
 }
-.area-animal{
+.body{
     display: flex;
-    width: 60%;
-    height: 40%;
-    align-items: left;
-    justify-content: left;
+    background-color: var(--color-primary-8);
 }
-.button-cavalo{
-    background-color: aqua;
-}
-.equinos {
+.area-cards{
+    width: 100%;
     display: flex;
-    width: 30%;
-    height: 70%;
-    z-index: 2;
-    align-items: start;
-    object-fit: cover;
-    
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    gap: 30px;
+    margin-top: 32px;
+    flex-direction: row;
+    padding: 20px;
 }
-.button-galo{
-background-color: red;
-  
-}
-.galinacios {
+.card{
     display: flex;
-    width: 30%;
-    height: 70%;
-    z-index: 2;
-    align-items: start;
-    object-fit: cover;
-    
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-primary-1);
+    border-radius: 20px;
+    gap: 18px;
+    padding: 20px;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 50%;
 }
-.button-boi{
-    background-color: rgb(89, 113, 193);
+.card-image{
+    height: 150px;
 }
-.bovinos {
+.card-heart{
+    position: absolute;
+    background-color: var(--color-primary-6);
     display: flex;
-    width: 30%;
-    height: 70%;
-    z-index: 2;
-    align-items: start;
-    /* background-color: aquamarine; */
-    object-fit: cover;
-    
+    align-items: center;
+    justify-content: center;
+    font-size: 1.563rem;
+    width: 70px;
+    height: 70px;
+    right: -10px;
+    top: -10px;
+    border-radius: 0px 37.5px 0px 42.5px;
+    transition: all 0.3s ease;
 }
-.button-produto{
-    background-color: rgb(106, 165, 60);
+.card-heart:hover{
+    color: red;
+    cursor: pointer;
 }
-.produtos {
+.card-title{
+    font-size: 1.4rem;
+}
+.card-descricao{
+    font-size: 0.8rem;
+    text-align: justify;
+}
+.soan{
     display: flex;
-    width: 30%;
-    height: 70%;
-    z-index: 2;
-    align-items: start;
-    /* background-color: aquamarine; */
-    object-fit: cover;
-    
-    
+    flex-direction: row;
 }
-
+.card-price{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cl-checkbox {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+   }
+   
+   /* Input */
+   .cl-checkbox > input {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    z-index: -1;
+    position: absolute;
+    left: -10px;
+    top: -8px;
+    display: block;
+    margin: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: none;
+    outline: none;
+    opacity: 0;
+    transform: scale(1);
+    pointer-events: none;
+    transition: opacity 0.3s, transform 0.2s;
+   }
+   
+   /* Span */
+   .cl-checkbox > span {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+   }
+   
+   /* Box */
+   .cl-checkbox > span::before {
+    content: "";
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 3px 11px 3px 1px;
+    border: solid 2px;
+    /* Safari */
+    border-color: rgba(0, 0, 0, 0.6);
+    border-radius: 2px;
+    width: 18px;
+    height: 18px;
+    vertical-align: top;
+    transition: border-color 0.2s, background-color 0.2s;
+   }
+   
+   /* Checkmark */
+   .cl-checkbox > span::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 1px;
+    width: 10px;
+    height: 5px;
+    border: solid 2px transparent;
+    border-right: none;
+    border-top: none;
+    transform: translate(3px, 4px) rotate(-45deg);
+   }
+   
+   /* Checked, Indeterminate */
+   .cl-checkbox > input:checked,
+   .cl-checkbox > input:indeterminate {
+    background-color: #018786;
+   }
+   
+   .cl-checkbox > input:checked + span::before,
+   .cl-checkbox > input:indeterminate + span::before {
+    border-color: #018786;
+    background-color: #018786;
+   }
+   
+   .cl-checkbox > input:checked + span::after,
+   .cl-checkbox > input:indeterminate + span::after {
+    border-color: #fff;
+   }
+   
+   .cl-checkbox > input:indeterminate + span::after {
+    border-left: none;
+    transform: translate(4px, 3px);
+   }
+   
+   /* Hover, Focus */
+   .cl-checkbox:hover > input {
+    opacity: 0.04;
+   }
+   
+   .cl-checkbox > input:focus {
+    opacity: 0.12;
+   }
+   
+   .cl-checkbox:hover > input:focus {
+    opacity: 0.16;
+   }
+   
+   /* Active */
+   .cl-checkbox > input:active {
+    opacity: 1;
+    transform: scale(0);
+    transition: transform 0s, opacity 0s;
+   }
+   
+   .cl-checkbox > input:active + span::before {
+    border-color: #85b8b7;
+   }
+   
+   .cl-checkbox > input:checked:active + span::before {
+    border-color: transparent;
+    background-color: rgba(0, 0, 0, 0.6);
+   }
+   
+   /* Disabled */
+   .cl-checkbox > input:disabled {
+    opacity: 0;
+   }
+   
+   .cl-checkbox > input:disabled + span {
+    color: rgba(0, 0, 0, 0.38);
+    cursor: initial;
+   }
+   
+   .cl-checkbox > input:disabled + span::before {
+    border-color: currentColor;
+   }
+   
+   .cl-checkbox > input:checked:disabled + span::before,
+   .cl-checkbox > input:indeterminate:disabled + span::before {
+    border-color: transparent;
+    background-color: currentColor;
+   }
+   
