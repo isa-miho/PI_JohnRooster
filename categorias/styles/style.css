@@ -1,3 +1,7 @@
+@import url(categorias.css);
+@import url(categorias2.css);
+@import url(categorias3.css);
+
 :root{
     --color-primary-1: #40513B;
     --color-primary-2: #557153;

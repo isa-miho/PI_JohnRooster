@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Parte Principal */
+
+.categorias-galinaceos-img img{
+    width: 650px;
+    height: 300px;
+    display: flex;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+.categorias-galinaceos-titulo{
+    color: var(--color-primary-1);
+    font-size: 1.2rem;
+    position: absolute;
+    top: 35%;
+    left: 70%;
+}
+
+.categorias-galinaceos-texto{
+    color: var(--color-primary-1);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+
+.categorias-galinaceos-visualizar{
+    position: absolute;
+    top: 60%;
+    left: 65%;
+}
+
+.categorias-galinaceos-visualizar button{
+    color: var(--color-primary-7);
+    background-color: var(--color-primary-5);
+    width: 255px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+.categorias-galinaceos-visualizar button:hover{
+    background-color: var(--color-primary-2);
+}
+
+.categorias-equinos-img img{
+    width: 650px;
+    height: 300px;
+    display: flex;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    margin-left: 725px;
+}
+
+.categorias-equinos-titulo{
+    color: var(--color-primary-1);
+    font-size: 1.2rem;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+
+.categorias-equinos-texto{
+    color: var(--color-primary-1);
+    position: absolute;
+    top: 90%;
+    left: 2%;
+}
+
+.categorias-equinos-texto h3{
+    width: 65%;
+    display: flex;
+}
+
+.categorias-equinos-visualizar{
+    position: absolute;
+    top: 103%;
+    left: 14%;
+}
+
+.categorias-equinos-visualizar button{
+    color: var(--color-primary-7);
+    background-color: var(--color-primary-5);
+    border: none;
+    width: 255px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.categorias-equinos-visualizar button:hover{
+    background-color: var(--color-primary-2);
+}
+
+/* Parte do Rodapé */
+
+.categorias-seta-esquerda{
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    position: absolute;
+    left: 2%;
+    top: 124%;
+    transform: rotate(180deg);
+}
+
+.categorias-seta-esquerda button{
+    width: 50px;
+    height: 50px;
+    background-color: #9DC08B;
+    border: none;
+    border-radius: 50%;
+}
+
+.categorias-seta-esquerda button:hover{
+    background-color: var(--color-primary-2);
+}
+
+.categorias-seta-esquerda button{
+    font-size: 25px;
+    color: var(--color-primary-7);
+}
