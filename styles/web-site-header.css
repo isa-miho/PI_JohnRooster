@@ -1,0 +1,73 @@
+.web-site-header{
+    width: 100%;
+    padding: 20px 100px 20px 100px;
+    background-color: #609966;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header-area{
+    width: 100%;
+    background-color: #609966;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-btn{
+    display: flex;
+    width: 1.5rem;
+}
+.nav-btn{
+    display: flex;
+    width: 1.5rem;
+}
+.nav-btn-img{
+    display: flex;
+    width: 1.5rem;
+}
+.logo{
+    display: flex;
+    width: 100px;
+}
+.logo-img{
+    display: flex;
+    width: 100%;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    border-radius: 65px;
+    padding: 10px 25px 10px 25px;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #EDF1D6;
+}
+.search-text{
+    color: #EDF1D6;
+    size: 16px;
+}
+.search-nav-btn{
+    display: flex;
+    width: 24px;
+}
+.nav-search-btn-img{
+    display: flex;
+    width: 24px;
+    height: 24px;
+}
+.navigation-btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+/* .image-carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+} */

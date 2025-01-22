@@ -1,0 +1,15 @@
+.categories{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+.page-title1{
+    /* justify-content: flex-start;
+    align-self: flex-start; */
+    font-size: 1.5rem;
+    color: var(--color-primary-1);
+}

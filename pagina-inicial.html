@@ -1,43 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
-    <link rel="stylesheet" href="css/pagina-inicial.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
 </head>
+
 <body>
-    <header class="cabecalho">
-        <button class="menu-btn button">
-            <i class="fa-solid fa-bars"></i>
-        </button>
-        <img src="imagens/Logo John Rooster (1).png" alt="" class="logo">
-        <div class="barra-de-busca">
-            <span class="texto-barra">
-                O que deseja buscar?
-            </span>
-            <i class="fa-solid fa-magnifying-glass"></i>
+
+    <section class="web-site-header">
+        
+        <div class="header-area">
+
+            <div class="menu-btn">
+                <a href="#PÁGINA-MENU" class="nav-btn">
+                    <img src="./assets/imgs/Menu.png" alt="" class="nav-btn-img">
+                </a>
+            </div>
+
+            <div class="logo">
+                <img src="./assets/imgs/Logo John Rooster.png" alt="Logo" class="logo-img">
+            </div>
+
+            <div class="search">
+                <span class="search-text">
+                    O que deseja buscar?
+                </span>
+                <a href="#PÁGINA-DE-BUSCA" class="search-nav-btn">
+                    <img src="./assets/imgs/Search.png" alt="" class="nav-search-btn-img">
+                </a>
+            </div>
+
+            <div class="navigation-btns">
+                
+                <a href="#PÁGINA-NOTIFICAÇÕES" class="nav-btn">
+                    <img src="./assets/imgs/Notifications.png" alt="" class="nav-btn-img">
+                </a>
+                
+                <a href="#PÁGINA-CARRINHO" class="nav-btn">
+                    <img src="./assets/imgs/Shopping cart.png" alt="" class="nav-btn-img">
+                </a>
+                
+                <a href="#PÁGINA-PERFIL" class="nav-btn">
+                    <img src="./assets/imgs/Account circle.png" alt="" class="nav-btn-img">
+                </a>
+                
+            </div>
         </div>
-        <button class="btns button">
-            <i class="fa-solid fa-bell"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
-            <i class="fa-solid fa-user"></i>
-        </button>
 
+    </section>
 
+    <!-- <section class="image-carousel">
+        <div class="carousel-items">
+            <span class="crs-text">Seja bem-vindo(a) ao nosso site</span>
+            <img src="./assets/imgs/gado-foto-Everton-Queiroz.webp" alt="" class="carousel-img">
+        </div>
+    </section> -->
 
+    <section class="categories">
+        <h2 class="page-title1">Categorias</h2>
+        <div class="categories-imgs">
+            <img src="./assets/imgs/galo-categorias.jpg" alt="" class="category-img">
+            <img src="./assets/imgs/cavalo-categorias.jpg" alt="" class="category-img">
+            <img src="./assets/imgs/galo-categorias.jpg" alt="" class="category-img">
+            <img src="./assets/imgs/produtos-categorias.jpg" alt="" class="category-img">
+        </div>
+    </section>
 
-    </header>
-    <main>
+    <section class="monthly-champions">
 
+    </section>
 
-    </main>
-    <footer>
-
-
-    </footer>
 </body>
+
 </html>
