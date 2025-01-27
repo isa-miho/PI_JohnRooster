@@ -8,8 +8,22 @@
     background-color: aliceblue;
 }
 .page-title1{
-    /* justify-content: flex-start;
-    align-self: flex-start; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     font-size: 1.5rem;
     color: var(--color-primary-1);
+}
+.categories-imgs{
+    display: flex;
+    flex-direction: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.category-img{
+    width: 20%;
+    display: flex;
+    padding: 25px 0px 25px 0px;
+    border-radius: 10%;
 }
