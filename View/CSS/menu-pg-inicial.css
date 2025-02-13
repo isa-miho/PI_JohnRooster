@@ -24,7 +24,7 @@
 
 body {
     background-color: #fff;
-    font-family: 'Nunito';
+    font-family: 'Lato';
 }
 
 .menu{
@@ -40,7 +40,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 86px;
+    padding: 20px 80px;
 }
 .logo{
     display: flex;
@@ -56,7 +56,7 @@ body {
     align-items: center; */
     font-size: 24px;
     color: var(--color-primary-1);
-    font-weight: 800;
+    font-weight: 750;
 }
 .nav-link{
     display: flex;
@@ -69,6 +69,7 @@ body {
     text-decoration: none;
     color: var(--color-primary-1);
     font-size: 16px;
+    font-weight: 500;
 }
 
 .search-container {
@@ -94,6 +95,7 @@ body {
 
 .search-container input::placeholder {
     color: var(--color-primary-1);
+    font-weight: 600;
 }
 
 .search-container button {
@@ -125,13 +127,14 @@ body {
     color: var(--color-primary-1);
     align-items: center;
     font-weight: 700;
+    gap: 10px;
     justify-content: center;
     align-items: center;
 }
 
-.nav-btns svg{
+/* .nav-btns svg{
     justify-content: center;
-}
+} */
 
 .carousel{
     display: flex;
@@ -143,9 +146,11 @@ body {
     width: 100%;
     height: 380px;
     background-image: url(/assets/img/pecuaria.jpg);
+    background-position: center;
     background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center; 
+    background-repeat: no-repeat;
+    background-color: rgb(64, 81, 59, 0.8);
+    background-blend-mode: multiply
 }
 
 .carousel-title{
